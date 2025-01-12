@@ -1,0 +1,48 @@
+.fotos-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fotos-cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.fotos-card {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 20px 20px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.fotos-card:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .fotos-cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+        margin-right: 25px;
+    }
+}
+
+/* Esses estilos são genéricos e focados na estrutura e comportamento dos cards (ex.: dimensões, grid, hover).
+Podem ser reutilizados para outras galerias de fotos em diferentes páginas. */

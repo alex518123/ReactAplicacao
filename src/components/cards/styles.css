@@ -1,0 +1,64 @@
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://istoe.com.br/istoegeral/wp-content/uploads/2024/12/MV5BMjE1NzI1ODk3NF5BMl5BanBnXkFtZTcwNjQ2MTk2Mw._V1_QL75_UX820_.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2023/08/10/300429308-e2c3bdedbc5662bd3b5c8ccce5a331be.png');
+}
+
+.banner-3 {
+    background-image: url('https://observatoriodocinema.uol.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=1200&height=627&format=.jpg&quality=91&imagick=/wp-content/uploads/2023/07/gandalf-o-senhor-dos-aneis-branco-1536x866.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://pm1.aminoapps.com/6435/96b0ab3e03495a9ce8822b4b7bd40e398524dde8_hq.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/10/02/128888124-05c0ab4f8e6801e0f74e0a37908bb3ae.jpg');
+}
+
+.banner-6 {
+    background-image: url('https://cinepop.com.br/wp-content/uploads/2022/05/sean.jpg');
+}
+
+@media(max-width: 768px){
+    .cards-content {grid-template-columns: 1fr; margin-top: 70px;}
+}

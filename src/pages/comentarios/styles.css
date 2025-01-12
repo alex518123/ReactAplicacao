@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+/* Background Video */
+.background-video {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden; 
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Section Title */
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 40px;
+  color: #fff;
+  margin-top: 40px;
+  align-items: center;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .video {
+    width: 100%;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}

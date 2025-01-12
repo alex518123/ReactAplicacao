@@ -1,0 +1,57 @@
+.fotos-cards-container {
+    background-image: url('https://wallpapers.com/images/hd/lord-of-the-rings-wallpaper-collection-with-hd-wallpaper-image-b0t7g4oh77s13mxr.jpg');
+    background-size: cover;
+}
+
+.fotos-banner1 {
+    background-image: url('https://wallpapers.com/images/hd/720p-the-lord-of-the-rings-wallpaper-xwwffdumke2kzuqq.jpg');
+}
+
+.fotos-banner2 {
+    background-image: url('https://wallpapers.com/images/hd/most-popular-lord-of-the-rings-wallpaper-hd-full-hd-1080p-for-pc-ounay2yrqki9sz9k.jpg');
+}
+
+.fotos-banner3 {
+    background-image: url('https://wallpapers.com/images/hd/lord-of-the-rings-wallpaper-image-my-fandom-lord-fdlup0deaeqbdimn.jpg');
+}
+
+.fotos-banner4 {
+    background-image: url('https://wallpapers.com/images/featured/paisagem-do-senhor-dos-aneis-drp54ryeir054y04.jpg');
+}
+
+.fotos-banner5 {
+    background-image: url('https://images8.alphacoders.com/119/1193087.jpg');
+}
+
+.fotos-banner6 {
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_2t/11942.png');
+}
+
+.fotos-banner7 {
+    background-image: url('https://wallpapers.com/images/hd/wizard-and-boy-4k-lord-of-the-rings-wx4dbm8zkpask8am.jpg');
+}
+
+.fotos-banner8 {
+    background-image: url('https://wallpaper.forfun.com/fetch/e4/e4aadfe7d7055f60270a71ee07bfb2c3.jpeg');
+}
+
+.fotos-banner9 {
+    background-image: url('https://wallpapers.com/images/hd/the-lord-of-the-rings-hd-wallpaper-f7bqrf4cptb6kxe0.jpg');
+}
+
+.fotos-banner10 {
+    background-image: url('https://wallpapers.com/images/hd/lord-of-the-rings-wallpaper-group-vp5peoat5ba5jiab.jpg');
+}
+
+.fotos-banner11 {
+    background-image: url('https://wallpapers.com/images/hd/lord-of-the-rings-landscape-volcano-7786fkh0teid3wdb.jpg');
+}
+
+.fotos-banner12 {
+    background-image: url('https://wallpapers.com/images/hd/sanctuary-4k-lord-of-the-rings-k2yywjuyt4g5jfu5.jpg');
+}
+
+
+/* São específicos para a personalização da galeria nesta página, como o background geral e as imagens usadas nos cards.
+Não são genéricos, então não faz sentido colocá-los no componente reutilizável. */
+
